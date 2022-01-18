@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>518</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#008000</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #008080</string>
+   </property>
+   <widget class="QPushButton" name="Close">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>222</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #000000;
+font: 8pt &quot;Arial&quot;;
+color: #FFFFFF;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #FFFFFF
+</string>
+    </property>
+    <property name="text">
+     <string>CLOSE</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>251</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #00FFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 5</string>
+    </property>
+    <property name="title">
+     <string>RobotWorking</string>
+    </property>
+    <widget class="QPushButton" name="ForwardLeft">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>F_LEFT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Forward">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>30</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>FORWARD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Left">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>LEFT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackwardLeft">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>B_LEFT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Stop">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>STOP</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Backward">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>110</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>BACKWARD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ForwardRight">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>30</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>F_RIGHT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Right">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>70</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>RIGHT</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackwardRight">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>110</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>B_RIGHT</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>120</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #00FFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 5</string>
+    </property>
+    <property name="title">
+     <string>DiodLight</string>
+    </property>
+    <widget class="QPushButton" name="DiodHigh">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>8</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000;</string>
+     </property>
+     <property name="text">
+      <string>DIOD_HIGH</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="DiodLow">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #FFFFFF;
+font: 8pt &quot;Arial&quot;;
+border-radius: 10;
+border-width: 2 px;
+border-style: solid;
+border-color: #000000</string>
+     </property>
+     <property name="text">
+      <string>DIOD_LOW</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>518</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
